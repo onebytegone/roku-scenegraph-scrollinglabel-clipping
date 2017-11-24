@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="TestPanel" extends="Panel" initialFocus="list">
+
+   <children>
+      <Label
+         id="label"
+         translation="[100,30]"
+         text="gjyÖÔÑÈgjyÖÔÑÈgjyÖÔÑÈ"
+         width="300"
+         height="70"
+         />
+      <ScrollingLabel
+         id="scrollingLabel"
+         translation="[100,100]"
+         text="gjyÖÔÑÈgjyÖÔÑÈgjyÖÔÑÈ"
+         maxWidth="300"
+         height="70"
+         />
+
+      <Label
+         id="label"
+         translation="[500,30]"
+         text="gjyÖÔÑÈgjyÖÔÑÈgjyÖÔÑÈ"
+         width="300"
+         height="70"
+         vertAlign="center"
+         />
+      <ScrollingLabel
+         id="scrollingLabel"
+         translation="[500,100]"
+         text="gjyÖÔÑÈgjyÖÔÑÈgjyÖÔÑÈ"
+         maxWidth="300"
+         height="70"
+         vertAlign="center"
+         />
+
+      <Label
+         id="label"
+         translation="[900,30]"
+         text="gjyÖÔÑÈgjyÖÔÑÈgjyÖÔÑÈ"
+         width="300"
+         height="70"
+         vertAlign="bottom"
+         />
+      <ScrollingLabel
+         id="scrollingLabel"
+         translation="[900,100]"
+         text="gjyÖÔÑÈgjyÖÔÑÈgjyÖÔÑÈ"
+         maxWidth="300"
+         height="70"
+         vertAlign="bottom"
+         />
+
+      <LabelList id="list" translation="[100,270]" vertFocusAnimationStyle="floatingFocus">
+         <ContentNode role="content">
+            <ContentNode title="gjyÖÔÑÈgjyÖÔÑÈgjyÖÔÑÈ" />
+            <ContentNode title="gjyÖÔÑÈgjyÖÔÑÈgjyÖÔÑÈ" />
+         </ContentNode>
+      </LabelList>
+   </children>
+
+</component>
