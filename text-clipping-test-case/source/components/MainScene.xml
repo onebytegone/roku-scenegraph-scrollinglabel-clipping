@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="MainScene" extends="OverhangPanelSetScene">
+
+  <script type = "text/brightscript" >
+   <![CDATA[
+      function init() as Void
+         m.panel = m.top.panelSet.createChild("TestPanel")
+      end function
+   ]]>
+   </script>
+
+</component>
